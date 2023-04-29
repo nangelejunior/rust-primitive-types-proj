@@ -1,7 +1,4 @@
 fn main() {
-	let numbers = [1, 2, 3];
-	println!("{:?}", numbers);
-	
-	let numbers: [i32;3] = [1, 2, 3];
-	println!("{:?}", numbers);
+	let numbers = [1.1, 2.0, 3.3];
+	println!("{:?}", numbers[0]);
 }
