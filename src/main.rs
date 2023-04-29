@@ -1,4 +1,5 @@
 fn main() {
-	let x = true;
-	let x: bool = false;
+	let letra = 'a';
+	let letra: char = 'a';
+	let letra = '😁';
 }
