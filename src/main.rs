@@ -1,8 +1,8 @@
 fn main() {
 	//tupla
-	let numbers = (1, 2, 3);
+	let mut numbers = (1, 2, 3);
 	println!("{:?}", numbers);
 	
-	let (a, b, c) = numbers;
-	println!("{:?}", a);
+	numbers.0 = 50;
+	println!("{:?}", numbers);
 }
