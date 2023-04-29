@@ -1,5 +1,5 @@
 [package]
-name = "rust-primitive-types-proj"
+name = "proj"
 version = "0.1.0"
 edition = "2021"
 
