@@ -106,7 +106,7 @@ fn main() {
 fn main() {
 	let letra = 'a';
 	let letra: char = 'a';
-	let letra = '😁️';
+	let letra = '😁';
 }
 ```
 
@@ -140,7 +140,7 @@ fn main() {
 fn main() {
 	//tupla
 	let numbers = (1, 2, 3);
-	println!("{:?}", a);
+	println!("{:?}", numbers);
 	
 	let (a, b, c) = numbers;
 	println!("{:?}", a);
