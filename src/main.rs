@@ -1,8 +1,7 @@
 fn main() {
-	//tupla
-	let mut numbers = (1, 2, 3);
+	let numbers = [1, 2, 3];
 	println!("{:?}", numbers);
 	
-	numbers = (4, 5, 6); //pattern match
+	let numbers: [i32;3] = [1, 2, 3];
 	println!("{:?}", numbers);
 }
